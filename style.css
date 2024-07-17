@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif
+}
+
+
+.nav-header a {
+  /* width: 1000%;
+  height: 10px;
+  background-color: beige;
+  display: block;
+  justify-content: center; */
+  text-decoration: none;
+  font-size: larger;
+  color: darkslategray;
+}
+
+.nav-header {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 4px 2px #444;
+  font-size: 30px;
+}
+
+
+@media (min-width: 768px) {
+  .hero-text {
+    font-size: 32px;
+  }
+}
+
+/* Mobile Size */
+@media (max-width: 400px) {
+  .hero-text {
+    font-size: 20px;
+  }
+}
+
+.flex-container {
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  margin-top: 10px;
+
+
+}
+
+.great-wall{
+  align-self: center;
+
+}
+
+.peanut-butter-noodles {
+  align-self: center;
+}
+
+.mapo-tofu {
+  align-self: center;
+}
